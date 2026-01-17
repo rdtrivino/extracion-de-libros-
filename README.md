@@ -68,15 +68,6 @@ Desarrollar una aplicación que extraiga información desde un sitio web y expor
 - Librerías:
   ```bash
   pip install requests beautifulsoup4
-# Prueba técnica – Excel y Python  
-**Autor:** Rubén Triviño  
-
-Este repositorio contiene la entrega correspondiente **a la prueba solicitada**, la cual consta de dos partes:
-1. Un ejercicio de **análisis de datos en Excel**.
-2. Un ejercicio de **extracción de datos en Python**.
-
-Debido a restricciones en el envío de archivos por correo electrónico, la entrega completa se encuentra disponible en este repositorio GitHub.
-
 ---
 
 ## 📥 Cómo descargar la entrega
