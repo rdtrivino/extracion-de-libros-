@@ -44,8 +44,7 @@ Desarrollar una aplicación que extraiga información desde un sitio web y expor
 - Mensajes visuales de confirmación o error.
 
 ### Archivos
-- `capturador_libros_app.py` → código fuente en Python  
-- `libros_capturados.csv` → archivo generado  
+- `capturador_libros_app.py` → código fuente en Python 
 - `capturador_libros_app.exe` → aplicación de escritorio para Windows  
 
 ---
