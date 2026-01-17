@@ -17,8 +17,6 @@ Debido a restricciones en el envío por correo electrónico, la entrega se reali
 3. Seleccionar **Download ZIP**.
 4. Descomprimir el archivo descargado en su equipo.
 
-Una vez descomprimido, tendrá acceso a todos los archivos de la prueba.
-
 ---
 
 ### Opción 2: Clonar el repositorio (opcional)
@@ -60,11 +58,11 @@ Cómo revisarlo
 
 Abrir el archivo analisis_ventas.xlsx.
 
-Acceder a la hoja que contiene la tabla dinámica.
+Acceder a la hoja con la tabla dinámica.
 
-Utilizar el segmentador (slicer) para filtrar por cliente.
+Usar el segmentador (slicer) para filtrar por cliente.
 
-Visualizar el gráfico de barras con las ventas por ciudad.
+Revisar el gráfico de barras por ciudad.
 
 2️⃣ Ejercicio en Python – Extracción de datos
 Objetivo
@@ -77,7 +75,7 @@ Conexión al sitio: https://books.toscrape.com/
 
 Extracción de los nombres y precios de los primeros 10 libros de la página principal.
 
-Limpieza del precio para convertirlo a un valor numérico.
+Limpieza del precio para convertirlo a valor numérico.
 
 Exportación de los resultados a libros_capturados.csv.
 
@@ -90,3 +88,36 @@ Archivos
 capturador_libros_app.py → código fuente en Python
 
 capturador_libros_app.exe → aplicación de escritorio para Windows
+
+▶️ Ejecución del proyecto
+Opción A: Ejecutable (Windows)
+
+Ejecutar el archivo capturador_libros_app.exe.
+
+Presionar el botón “Extraer libros”.
+
+Seleccionar la carpeta de destino.
+
+Se genera automáticamente el archivo libros_capturados.csv.
+
+No requiere Python instalado.
+
+Opción B: Ejecutar el código Python
+Requisitos
+
+Python 3.x instalado.
+
+Librerías necesarias:
+
+pip install requests beautifulsoup4
+
+Ejecución
+python capturador_libros_app.py
+
+ℹ️ Notas finales
+
+El sitio Books to Scrape es un sitio de pruebas utilizado con fines educativos.
+
+La aplicación fue empaquetada para Windows utilizando PyInstaller.
+
+Toda la entrega se documenta en este repositorio para facilitar su revisión.
